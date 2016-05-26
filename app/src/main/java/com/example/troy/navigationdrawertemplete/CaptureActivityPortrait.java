@@ -3,7 +3,6 @@ package com.example.troy.navigationdrawertemplete;
 import android.os.Bundle;
 
 import com.journeyapps.barcodescanner.CaptureActivity;
-import com.journeyapps.barcodescanner.CompoundBarcodeView;
 
 /**
  * Created by troy on 16/5/26.
