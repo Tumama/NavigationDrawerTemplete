@@ -99,6 +99,8 @@ public class MainActivity extends AppCompatActivity
             this.startActivity(activityIntent);
 
         } else if (id == R.id.nav_manage) {
+            FragmentListView  fragmentListView =  new FragmentListView() ;
+            getFragmentManager().beginTransaction().replace(R.id.Fragment_container, fragmentListView).commit();
 
         } else if (id == R.id.nav_share) {
 
